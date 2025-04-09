@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class PhoneBookTest {
-//    private PhoneBookMethod thePhoneBook;
+
 
     @Test
     public void testAddConstructor() {
@@ -35,7 +35,7 @@ public class PhoneBookTest {
             assertEquals(1, contacts.size());
             assertEquals("Ade", contacts.get(0).getFirstName());
             assertEquals("Yemi", contacts.get(0).getLastName());
-            assertEquals(1234567890L, contacts.get(0).getPhoneNumber());
+            assertEquals("1234567890", contacts.get(0).getPhoneNumber());
         }
     @Test
     public void testRemoveContact() {
@@ -92,13 +92,18 @@ public class PhoneBookTest {
     }
     @Test
     public void testEditContact() {
-        PhoneBook contact = new PhoneBook("Ade", "Yemi", "1234567890");
-        PhoneBookMethod phoneBookContact = new PhoneBookMethod();
+            PhoneBookMethod phoneBookContact = new PhoneBookMethod();
+            PhoneBook contact = new PhoneBook("Ade", "Yemi", "1234567890");
+            phoneBookContact.addContact(contact);
 
-        boolean editContact = phoneBookContact.editContact("Ade","Yemi","1234567890");
-        assertTrue(editContact, "Contact was  edited");
+            boolean edited = phoneBookContact.editContact("0987654321", "Ade", "Yemi", "1234567890");
 
-    }
+            assertTrue(edited);
+            PhoneBook updated = phoneBookContact.FindContactByPhoneNumber("0987654321");
+            assertEquals("Ade", updated.getFirstName());
+            assertEquals("Yemi", updated.getLastName());
+        }
+
 
 
 }
