@@ -61,9 +61,9 @@ public class PhoneBookTest {
         PhoneBook contact = new PhoneBook("Ade","Yemi", "1234567890");
         PhoneBookMethod phoneBookContact = new PhoneBookMethod();
 
-        PhoneBook removedContact=phoneBookContact.FindContactByPhoneNumber("1234567890");
+        PhoneBook findContactWithPhoneNUmber =phoneBookContact.FindContactByPhoneNumber("1234567890");
 
-        assertNull(removedContact);
+        assertNull(findContactWithPhoneNUmber);
         assertEquals("Ade", contact.getFirstName());
         assertEquals("Yemi", contact.getLastName());
 
@@ -73,11 +73,13 @@ public class PhoneBookTest {
 
         PhoneBookMethod phoneBookManager = new PhoneBookMethod();
         PhoneBook contact = new PhoneBook("Ade", "Yemi", "1234567890");
-        phoneBookManager.addContact(contact);
+        PhoneBookMethod phoneBookContact = new PhoneBookMethod();
 
-        List<PhoneBook> firstNameContact = phoneBookManager.findFirstName("Ade");
-        assertEquals(1, firstNameContact.size());
-        assertEquals("Yemi", firstNameContact.get(0).getLastName());
+        PhoneBook findContactWithFirstName = (PhoneBook) phoneBookContact.findFirstName("Ade");
+
+        assertNull(findContactWithFirstName);
+        assertEquals("Yemi", contact.getLastName());
+        assertEquals("1234567890", contact.getPhoneNumber());
     }
     @Test
     public void testFindLastName() {

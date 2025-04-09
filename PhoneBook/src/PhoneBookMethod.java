@@ -17,7 +17,8 @@ public class PhoneBookMethod {
     }
 
     public boolean removeContact(int remove) {
-        for(PhoneBook removeNumber : phoneBooks ){
+        for(int count = 0; count < phoneBooks.size(); count++ ) {
+            PhoneBook removeNumber = phoneBooks.get(count);
             if (removeNumber.getPhoneNumber().equals(remove)){
                 phoneBooks.remove(removeNumber);
                 return true;
@@ -27,7 +28,8 @@ public class PhoneBookMethod {
     }
 
     public PhoneBook FindContactByPhoneNumber(String PhoneNumber) {
-        for (PhoneBook find : phoneBooks) {
+        for (int count = 0; count < phoneBooks.size(); count++) {
+            PhoneBook find = phoneBooks.get(count);
             if (find.getPhoneNumber().equals(PhoneNumber)) {
               System.out.println("this is the details : " +  find);
                 return find;
@@ -37,20 +39,25 @@ public class PhoneBookMethod {
     }
 
     public List<PhoneBook> findFirstName(String firstName) {
-        List<PhoneBook> result = new ArrayList<>();
-        for (PhoneBook contact : phoneBooks) {
-            if (contact.getFirstName()==(firstName)) {
-                result.add(contact);
+        List<PhoneBook> matches = new ArrayList<>();
+
+        for (int count = 0; count < phoneBooks.size(); count++) {
+            PhoneBook phoneBook = phoneBooks.get(count);
+            if (phoneBook.getFirstName().equalsIgnoreCase(firstName)) {
+                matches.add(phoneBook);
             }
         }
-        return result;
+
+        return matches;
     }
+
 
     public List<PhoneBook> findLastName(String lastName) {
         List<PhoneBook> result = new ArrayList<>();
-        for (PhoneBook contact : phoneBooks) {
-            if (contact.getLastName()==(lastName)) {
-                result.add(contact);
+        for (int count = 0; count < phoneBooks.size(); count++) {
+            PhoneBook phoneBook = phoneBooks.get(count);
+            if (phoneBook.getLastName()==(lastName)) {
+                result.add(phoneBook);
             }
         }
         return result;
@@ -67,4 +74,16 @@ public class PhoneBookMethod {
         return false;
     }
 
+    public void removeAllContacts() {
+        phoneBooks.clear();
     }
+    public void viewAllContact(){
+        if (phoneBooks.isEmpty()){
+            System.out.println("No phone books found");
+        }
+        for (int count = 0 ; count < phoneBooks.size(); count++) {
+            PhoneBook theCount = phoneBooks.get(count);
+            System.out.println(theCount);
+        }
+    }
+}
