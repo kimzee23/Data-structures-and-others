@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6516154f-0b5c-446f-9bee-45f1e699e9a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myArray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TestMyArray.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2v0jUh6wdJRRlC9tgEhaxgtcvGT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.TestMyArray.executor": "Run",
+    "JUnit.TestMyArray.testArrayLength.executor": "Run",
+    "JUnit.TestMyArray.testIfMyArrayIsEmpty.executor": "Run",
+    "JUnit.TestMyArray.testIfMyArrayIsNotEmpty.executor": "Run",
+    "JUnit.TestMyArray.testMyArrayArrange.executor": "Run",
+    "JUnit.TestMyArray.testMyArrayCanAdd.executor": "Run",
+    "JUnit.TestMyArray.testMyArrayConstructor.executor": "Run",
+    "JUnit.TestMyArray.testMyArrayFill.executor": "Run",
+    "JUnit.TestMyArray.testMyArrayIfIsEmpty.executor": "Run",
+    "JUnit.TestMyArray.testMyArraySearch.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/Documents/java pratices/Mystack",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TestMyArray.testMyArraySearch">
+    <configuration name="TestMyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyArray" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyArray.testMyArrayArrange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyArray" />
+      <option name="METHOD_NAME" value="testMyArrayArrange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyArray.testMyArrayConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyArray" />
+      <option name="METHOD_NAME" value="testMyArrayConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyArray.testMyArrayFill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyArray" />
+      <option name="METHOD_NAME" value="testMyArrayFill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyArray.testMyArraySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyArray" />
+      <option name="METHOD_NAME" value="testMyArraySearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMyArray.testMyArraySearch" />
+        <item itemvalue="JUnit.TestMyArray.testMyArrayArrange" />
+        <item itemvalue="JUnit.TestMyArray" />
+        <item itemvalue="JUnit.TestMyArray.testMyArrayFill" />
+        <item itemvalue="JUnit.TestMyArray.testMyArrayConstructor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6516154f-0b5c-446f-9bee-45f1e699e9a9" name="Changes" comment="" />
+      <created>1743288906962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743288906962</updated>
+      <workItem from="1743288908211" duration="11679000" />
+      <workItem from="1743341562320" duration="3051000" />
+      <workItem from="1743399769242" duration="1073000" />
+      <workItem from="1743400961363" duration="10424000" />
+      <workItem from="1743418521115" duration="3214000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="myArray" memberName="count" />
+        <PinnedItemInfo parentTag="myArray" memberName="myArray" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
