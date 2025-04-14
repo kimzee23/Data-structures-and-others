@@ -39,34 +39,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Menstruation.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.MenstruationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenstruationTest.testCalculateNextCycleDate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenstruationTest.testUserConstructor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenstruationTest.testUserConstructorUserSetters.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenstruationTest.testUserNameInput.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenstruationTest.testUserSetters.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenstruationTest.testUserSettersAndGetters.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Documents/java pratices/AirConditional&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Menstral.executor": "Run",
+    "Application.Menstruation.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.MenstruationTest.executor": "Run",
+    "JUnit.MenstruationTest.testCalculateNextCycleDate.executor": "Run",
+    "JUnit.MenstruationTest.testGetAndSetFlowDegree.executor": "Run",
+    "JUnit.MenstruationTest.testGetInvalidFlowDegree.executor": "Run",
+    "JUnit.MenstruationTest.testIfMenstruationComesLate.executor": "Run",
+    "JUnit.MenstruationTest.testUserConstructor.executor": "Run",
+    "JUnit.MenstruationTest.testUserConstructorUserSetters.executor": "Run",
+    "JUnit.MenstruationTest.testUserNameInput.executor": "Run",
+    "JUnit.MenstruationTest.testUserSetters.executor": "Run",
+    "JUnit.MenstruationTest.testUserSettersAndGetters.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/Documents/java pratices/AirConditional",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Menstruation">
+}]]></component>
+  <component name="RunManager" selected="Application.Menstral">
+    <configuration name="Menstral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Menstral" />
+      <module name="Menstruation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Menstruation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Menstruation" />
       <module name="Menstruation" />
@@ -74,41 +86,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenstruationTest.testCalculateNextCycleDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenstruationTest.testGetAndSetFlowDegree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Menstruation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MenstruationTest" />
-      <option name="METHOD_NAME" value="testCalculateNextCycleDate" />
+      <option name="METHOD_NAME" value="testGetAndSetFlowDegree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenstruationTest.testUserConstructorUserSetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenstruationTest.testGetInvalidFlowDegree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Menstruation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MenstruationTest" />
-      <option name="METHOD_NAME" value="testUserConstructorUserSetters" />
+      <option name="METHOD_NAME" value="testGetInvalidFlowDegree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenstruationTest.testUserSetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenstruationTest.testIfMenstruationComesLate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Menstruation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MenstruationTest" />
-      <option name="METHOD_NAME" value="testUserSetters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MenstruationTest.testUserSettersAndGetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Menstruation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MenstruationTest" />
-      <option name="METHOD_NAME" value="testUserSettersAndGetters" />
+      <option name="METHOD_NAME" value="testIfMenstruationComesLate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Menstral" />
+        <item itemvalue="JUnit.MenstruationTest.testGetInvalidFlowDegree" />
         <item itemvalue="Application.Menstruation" />
-        <item itemvalue="JUnit.MenstruationTest.testCalculateNextCycleDate" />
-        <item itemvalue="JUnit.MenstruationTest.testUserSettersAndGetters" />
-        <item itemvalue="JUnit.MenstruationTest.testUserSetters" />
-        <item itemvalue="JUnit.MenstruationTest.testUserConstructorUserSetters" />
+        <item itemvalue="JUnit.MenstruationTest.testGetAndSetFlowDegree" />
+        <item itemvalue="JUnit.MenstruationTest.testIfMenstruationComesLate" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +148,7 @@
       <workItem from="1743973235043" duration="11093000" />
       <workItem from="1744029641778" duration="1276000" />
       <workItem from="1744033575209" duration="13488000" />
-      <workItem from="1744152940355" duration="10299000" />
+      <workItem from="1744152940355" duration="28550000" />
     </task>
     <servers />
   </component>
